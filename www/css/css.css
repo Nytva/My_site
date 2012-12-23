@@ -1,3 +1,53 @@
 body {
-    background: #000;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+div {
+    width: 500px;
+    height: 50px;
+    background: #28ff2b;
+    padding: 10px;
+    border: 1px solid rgba(255, 55, 39, 1.94);
+    margin: 20px 20px 35px 40px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#nytva {
+    font-size: 30px;
+    background: #f5f5dc;
+}
+
+.yanichi {
+    font-size: 30px;
+    background: #4169e1;
+    margin-left: 50px;
+}
+
+.slava {
+    height: auto;
+    z-index: 5;
+    margin: 50px auto;
+    position: relative;
+    border-radius: 10px;
+
+    background-image: -webkit-linear-gradient(top, #32f428, #349516);
+    box-shadow: 20px 50px 15px #666, 0px 0px 15px #000 inset;
+
+}
+
+.blya {
+    font-family: Arial;
+    font-weight: bold;
+    border-bottom: 1px dotted #000;
+}
+
+.slava p {
+    text-align: right;
+}
+
+p[haha="ebeb"] {
+    color: #ff0000;
 }
